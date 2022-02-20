@@ -6,6 +6,9 @@ I'll update this with links and explanations in the future.
 2. [SHELL](#shell)
 3. [BROWSER EXTENSIONS](#browser-extensions)
 4. [POWERCORD](#powercord)
+5. [BLENDER](#blender)
+   1. [ADDONS](#addons)
+   2. [ASSETS](#assets)
 
 ## PROGRAMS
 
@@ -85,3 +88,13 @@ Role Color Everywhere
 Shiki Codeblocks  
 Twemoji Everywhere  
 VCTimer  
+
+## BLENDER
+
+### ADDONS
+
+Node Wrangler (builtin)
+
+### ASSETS
+
+[800 Procedural Materials](https://adamantitemachine.com/b3dmatpack/)
