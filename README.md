@@ -1,14 +1,11 @@
-# RECOMMENDATIONS
-
 This is a list containing all of the instructions to more-or-less replicate my setup as of 02.2022.  
 A prefix of ? means I either don't like this option and suggest finding an alternative in the future, or see this as something optional in general.  
 I'll update this with links and explanations in the future.
 
-1. [RECOMMENDATIONS](#recommendations)
-   1. [PROGRAMS](#programs)
-   2. [SHELL](#shell)
-   3. [BROWSER EXTENSIONS](#browser-extensions)
-   4. [POWERCORD](#powercord)
+1. [PROGRAMS](#programs)
+2. [SHELL](#shell)
+3. [BROWSER EXTENSIONS](#browser-extensions)
+4. [POWERCORD](#powercord)
 
 ## PROGRAMS
 
@@ -48,27 +45,26 @@ yt-dlp
 
 ## BROWSER EXTENSIONS
 
-Bitwarden  
-ClearURLs  
+[Bitwarden](https://bitwarden.com/)  
+[ClearURLs](https://github.com/ClearURLs/Addon/)  
 ?Dark Reader || stylus || Midnight Lizard  
-Demodal  
-?Disable Page Visibility API  
-DDG Privacy Essentials  
-FastForward  
-Firefox Color
-Lighthouse  
+[Demodal](https://github.com/AliasIO/demodal)  
+?[Disable Page Visibility API](https://addons.mozilla.org/en-US/firefox/addon/disable-page-visibility/)  
+[DDG Privacy Essentials](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)  
+[FastForward](https://github.com/FastForwardTeam/FastForward)  
+[Firefox Color](https://color.firefox.com/)
+[Lighthouse](https://github.com/GoogleChrome/lighthouse)  
 Open With (use with yt-dlp for downloading videos)  
-Privacy Badger  
-Redirect AMP to HTML  
-Return Youtube Dislike  
-Search by Image  
-Sponsorblock  
+[Privacy Badger](https://privacybadger.org/)  
+[Redirect AMP to HTML](https://addons.mozilla.org/en-US/firefox/addon/amp2html/)  
+[Return Youtube Dislike](https://www.returnyoutubedislike.com/)  
+[Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)  
+[Sponsorblock](https://github.com/ajayyy/SponsorBlock)  
 ?Tranquility Reader || Reader View  
-uBlock Origin  
+[uBlock Origin](https://ublockorigin.com/)  
 ?Urban VPN  
-Wikiwand  
-?Volume Master  
-StyleStach  
+[Wikiwand](https://www.wikiwand.com/)  
+[VisBug](https://github.com/GoogleChromeLabs/ProjectVisBug)  
 ?Material Color Palette  
 WhatFont  
 
