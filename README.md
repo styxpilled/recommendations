@@ -1,4 +1,4 @@
-This is a list containing all of the instructions to more-or-less replicate my setup as of 02.2022.  
+This is a list containing all of the instructions to more-or-less replicate my setup as of 03.2022.  
 A prefix of ? means I either don't like this option and suggest finding an alternative in the future, or see this as something optional in general.  
 I'll update this with links and explanations in the future.
 
@@ -73,21 +73,21 @@ WhatFont
 
 ## POWERCORD
 
-?Better Codeblocks  
-?bdCompat  
-Clickable Message Edits  
-?Copy Message Link  
-Emote Utility  
-Hide Channels  
-Image To Clipboard  
-?Image Tools  
-Mute & Unmute folders  
-Open in Spotify  
-?Power Bottom  
-Role Color Everywhere  
-Shiki Codeblocks  
-Twemoji Everywhere  
-VCTimer  
+Better Codeblocks (builtin)  
+[Better Settings](https://github.com/mr-miner1/better-settings)  
+Clickable Message Edits (builtin)  
+Emoji Utility (builtin)  
+[Hide Channels](https://github.com/RazerMoon/hidechannels)  
+[Unindent](https://github.com/VenPlugs/Unindent)  
+[Open in Spotify](https://github.com/lorencerri/powercord-open-in-spotify)  
+[Role Color Everywhere](https://github.com/powercord-community/rolecolor-everywhere)  
+[Shiki Codeblocks](https://github.com/Vap0r1ze/vpc-shiki)  
+[petpet](https://github.com/VenPlugs/petpet)  
+[Quick Chat Reply](https://github.com/notKnei/quickChatReply)  
+?[Quick Delete](https://github.com/the-cord-plug/quick-delete-pc)
+[Twemoji Everywhere](https://github.com/VenPlugs/PowercordTwemojiEverywhere) (sometimes causes crashes - cause unknown)
+[Reverse Image Search](https://github.com/lorencerri/powercord-reverse-image-search)
+[VCTimer](https://github.com/RazerMoon/vcTimer)  
 
 ## BLENDER
 
