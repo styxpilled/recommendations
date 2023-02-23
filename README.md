@@ -5,7 +5,7 @@ I'll update this with links and explanations in the future.
 1. [PROGRAMS](#programs)
 2. [SHELL](#shell)
 3. [BROWSER EXTENSIONS](#browser-extensions)
-4. [POWERCORD](#powercord)
+4. [DISCORD](#discord)
 5. [BLENDER](#blender)
    1. [ADDONS](#addons)
    2. [ASSETS](#assets)
@@ -71,23 +71,22 @@ Open With (use with yt-dlp for downloading videos)
 ?Material Color Palette  
 WhatFont  
 
-## POWERCORD
+## DISCORD
 
-Better Codeblocks (builtin)  
-[Better Settings](https://github.com/mr-miner1/better-settings)  
-Clickable Message Edits (builtin)  
-Emoji Utility (builtin)  
-[Hide Channels](https://github.com/RazerMoon/hidechannels)  
-[Unindent](https://github.com/VenPlugs/Unindent)  
-[Open in Spotify](https://github.com/lorencerri/powercord-open-in-spotify)  
-[Role Color Everywhere](https://github.com/powercord-community/rolecolor-everywhere)  
-[Shiki Codeblocks](https://github.com/Vap0r1ze/vpc-shiki)  
-[petpet](https://github.com/VenPlugs/petpet)  
-[Quick Chat Reply](https://github.com/notKnei/quickChatReply)  
-?[Quick Delete](https://github.com/the-cord-plug/quick-delete-pc)
-[Twemoji Everywhere](https://github.com/VenPlugs/PowercordTwemojiEverywhere) (sometimes causes crashes - cause unknown)
-[Reverse Image Search](https://github.com/lorencerri/powercord-reverse-image-search)
-[VCTimer](https://github.com/RazerMoon/vcTimer)  
+### PLUGINS
+- [BetterVolume](https://betterdiscord.app/plugin/BetterVolume)
+- [BetterRoleColors](https://betterdiscord.app/plugin/BetterRoleColors)
+- [CallTimeCounter](https://betterdiscord.app/plugin/CallTimeCounter)
+- [CharCounter](https://betterdiscord.app/plugin/CharCounter)
+- [DoubleClickToEdit](https://betterdiscord.app/plugin/Double%20Click%20To%20Edit)
+- [ImageUtilities](https://betterdiscord.app/plugin/ImageUtilities)
+- [SpotifyControls](https://betterdiscord.app/plugin/SpotifyControls)
+- [QuickLastMessage](https://betterdiscord.app/plugin/QuickLastMessage)
+
+
+### THEMES
+- [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
+- [revert.theme.css](https://gist.github.com/styxpilled/727554b063dd2b0fee5db7e47138e231)
 
 ## BLENDER
 
