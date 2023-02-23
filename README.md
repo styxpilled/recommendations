@@ -103,6 +103,9 @@ I'll update this with links and explanations in the future.
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
   - Notes:
     - Use `pnpm` and build from source instead of using their installer.
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+  - Winget:
+    - `winget install Docker.DockerDesktop`
 - [EarTrumpet](https://apps.microsoft.com/store/detail/9NBLGGH516XP)
   - Winget:
     - `winget install eartrumpet`
@@ -141,28 +144,30 @@ I'll update this with links and explanations in the future.
 
 ## BROWSER EXTENSIONS
 
-[Bitwarden](https://bitwarden.com/)  
-[ClearURLs](https://github.com/ClearURLs/Addon/)  
-?Dark Reader || stylus || Midnight Lizard  
-[Demodal](https://github.com/AliasIO/demodal)  
-?[Disable Page Visibility API](https://addons.mozilla.org/en-US/firefox/addon/disable-page-visibility/)  
-[DDG Privacy Essentials](https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/)  
-[FastForward](https://github.com/FastForwardTeam/FastForward)  
-[Firefox Color](https://color.firefox.com/)
-[Lighthouse](https://github.com/GoogleChrome/lighthouse)  
-Open With (use with yt-dlp for downloading videos)  
-[Privacy Badger](https://privacybadger.org/)  
-[Redirect AMP to HTML](https://addons.mozilla.org/en-US/firefox/addon/amp2html/)  
-[Return Youtube Dislike](https://www.returnyoutubedislike.com/)  
-[Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)  
-[Sponsorblock](https://github.com/ajayyy/SponsorBlock)  
-?Tranquility Reader || Reader View  
-[uBlock Origin](https://ublockorigin.com/)  
-?Urban VPN  
-[Wikiwand](https://www.wikiwand.com/)  
-[VisBug](https://github.com/GoogleChromeLabs/ProjectVisBug)  
-?Material Color Palette  
-WhatFont  
+Chrome and all it's derivatives are garbage, use Firefox.   
+
+- [Bitwarden](https://bitwarden.com/)  
+- [ClearURLs](https://github.com/ClearURLs/Addon/)  
+- [Dark Reader](https://darkreader.org/)
+  - Alternatives:
+    - [Stylus](https://addons.mozilla.org/addon/styl-us/)
+    - [Midnight Lizard](https://addons.mozilla.org/addon/midnight-lizard-quantum/) 
+- [Demodal](https://github.com/AliasIO/demodal)  
+- [uBlock Origin](https://ublockorigin.com/)  
+- [DDG Privacy Essentials](https://addons.mozilla.org/addon/duckduckgo-for-firefox/)  
+- [FastForward](https://github.com/FastForwardTeam/FastForward)  
+- [Firefox Color](https://color.firefox.com/)
+- [Lighthouse](https://github.com/GoogleChrome/lighthouse)  
+- [Open With](https://addons.mozilla.org/addon/open-with) 
+  - Notes
+    - Use with `yt-dlp` for downloading videos.  
+- [Privacy Badger](https://privacybadger.org/)  
+- [Redirect AMP to HTML](https://addons.mozilla.org/en-US/firefox/addon/amp2html/)  
+- [Return Youtube Dislike](https://www.returnyoutubedislike.com/)  
+- [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)  
+- [Sponsorblock](https://github.com/ajayyy/SponsorBlock)  
+- ?[VisBug](https://github.com/GoogleChromeLabs/ProjectVisBug)  
+- ?[Disable Page Visibility API](https://addons.mozilla.org/en-US/firefox/addon/disable-page-visibility/)  
 
 ## DISCORD
 
