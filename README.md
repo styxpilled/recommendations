@@ -20,6 +20,7 @@ I'll update this with links and explanations in the future.
   - [MISC](#misc)
   - [BUILDING](#building)
   - [RESOURCE PACKS](#resource-packs)
+  - [SHADERS](#shaders)
   - [DEVELOPMENT](#development)
 
 ## GLOSSARY
@@ -213,18 +214,23 @@ Node Wrangler (builtin)
 
 ## MINECRAFT
 
-Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org/en/about/faq/) which is a hard fork of Fabric.  
+You probably want an alternative launcher. [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) is open source.  
+Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org/en/about/faq/) which is a hard fork of Fabric. 
 ### GLOSSARY
 - [Modrinth](modrinth.com/) is a open-source mod platform.
 ### BACKEND
 - [FabricApi](https://modrinth.com/mod/fabric-api)
-- [ModMenu](https://modrinth.com/mod/modmenu)
+  - Essential for using most Fabric mods.
 - [Quilted Fabric API](https://modrinth.com/mod/qsl)
-  - Essential when using Quilt.
+  - Essential for using Quilt || Fabric mods on Quilt.
+- [ModMenu](https://modrinth.com/mod/modmenu)
+  - Adds a mod menu.
 - [Cloth Config API](https://modrinth.com/mod/cloth-config)
   - Config screen api.
 - [MaLiLib](https://www.curseforge.com/minecraft/mc-mods/malilib)
   - Required by Litematica, MiniHUD and Tweakeroo.
+- ?[CIT Resewn](https://modrinth.com/mod/cit-resewn)
+  - Custom Item Textures. Required by some resource packs.
 ### PERFORMANCE
 - [Sodium](https://modrinth.com/mod/sodium)
   - Non-destructive rendering optimization.
@@ -273,6 +279,8 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Falling leaf particle effects.
 - [ClearDespawn](https://modrinth.com/mod/cleardespawn)
   - Make items blink when they're about to despawn.
+- [Better Biome Blend](https://modrinth.com/mod/better-biome-blend)
+  - Improves the look and performance of biome color transitions.
 ### UI
 - $[Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge)
   - Improved inventory HUD.
@@ -294,6 +302,8 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Improved boat HUD.
 - [Status Effect Bars](https://modrinth.com/mod/status-effect-bars)
   - Shows a progress bar on status effects.
+- [Dark Loading Screen](https://modrinth.com/mod/dark-loading-screen)
+  - Makes the loading screen darker.
 ### MISC
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
   - Provides some OptiFine's features to Sodium.
@@ -324,6 +334,16 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - In-game map editor. Works only on singleplayer.
 ### RESOURCE PACKS
   - $[VanillaTweaks](https://vanillatweaks.net/picker/resource-packs/)
+    - Various tweaks.
+  - [Default Dark Mode](https://modrinth.com/resourcepack/default-dark-mode)
+    - Gives the Minecraft GUI dark mode while maintaining the vanilla textures.
+  - [xali's Enhanced Vanilla](https://modrinth.com/resourcepack/xalis-enhanced-vanilla)
+    - Makes a few blocks look nicer without changing the overall feel.
+  - ?[Even Better Enchants](https://modrinth.com/resourcepack/even-better-enchants)
+    - Unique textures for all enchanted books. Requires [Cit Resewn](https://modrinth.com/mod/cit-resewn).
+### SHADERS
+  - [Rethinking Voxels](https://modrinth.com/shader/rethinking-voxels)
+    - 
 ### DEVELOPMENT
 - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
   - Use a language that isn't bad to [make mods](https://github.com/FabricMC/fabric-language-kotlin#usage).
