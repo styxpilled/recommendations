@@ -281,6 +281,8 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Make items blink when they're about to despawn.
 - [Better Biome Blend](https://modrinth.com/mod/better-biome-blend)
   - Improves the look and performance of biome color transitions.
+- [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
+  - Replaces the 2d second layer of player skins with a 3d modeled version. Will automatically switch to the vanilla 2d rendering when players are further away than 12 blocks
 ### UI
 - $[Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge)
   - Improved inventory HUD.
@@ -304,6 +306,10 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Shows a progress bar on status effects.
 - [Dark Loading Screen](https://modrinth.com/mod/dark-loading-screen)
   - Makes the loading screen darker.
+- [ToolTipFix](https://modrinth.com/mod/tooltipfix)
+  - Stops tooltips from overflowing the screen.
+- [ItemSwapper](https://modrinth.com/plugin/itemswapper)
+  - Item hotswapping.
 ### MISC
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
   - Provides some OptiFine's features to Sodium.
@@ -331,7 +337,7 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
 - [Litermatica Server Paster](https://modrinth.com/mod/litematica-server-paster)
   - Paste Litematica structures. Needs to be installed both on the client and server.
 - [World Edit](https://www.curseforge.com/minecraft/mc-mods/worldedit)
-  - In-game map editor. Works only on singleplayer.
+  - In-game map editor. Works only on singleplayer. 
 ### RESOURCE PACKS
   - $[VanillaTweaks](https://vanillatweaks.net/picker/resource-packs/)
     - Various tweaks.
