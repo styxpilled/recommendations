@@ -8,9 +8,6 @@ I'll update this with links and explanations in the future.
 - [DISCORD](#discord)
   - [PLUGINS](#plugins)
   - [THEMES](#themes)
-- [BLENDER](#blender)
-  - [ADDONS](#addons)
-  - [ASSETS](#assets)
 - [MINECRAFT](#minecraft)
   - [GLOSSARY](#glossary-1)
   - [BACKEND](#backend)
@@ -34,125 +31,72 @@ I'll update this with links and explanations in the future.
 
 - [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
 - [curl](https://curl.se/)
-  - Notes:
-    - According to [their website](https://curl.se/windows/microsoft.html), Windows ships with curl. It's just that Powershell has a `curl` alias. In that case, use `curl.exe` until you have `nushell` installed.
-  - Winget:
-    - `winget install cURL.cURL`
+  - `winget install cURL.cURL`
+  - According to [their website](https://curl.se/windows/microsoft.html), Windows ships with curl. It's just that Powershell has a `curl` alias. In that case, use `curl.exe` until you have `nushell` installed.
 - [rustup](https://rustup.rs/)
-  - Winget:
-    - `winget install rustup`
+  - `winget install rustup`
 - [git](https://git-scm.com/downloads)
-  - Winget:
-    - `winget install Git.Git`
+  - `winget install Git.Git`
 - [gsudo](https://github.com/gerardog/gsudo)
-  - Winget:
-    - `winget install gsudo`
+  - `winget install gsudo`
 - [cargo-binstall](https://github.com/cargo-bins/cargo-binstall)
-  - Notes:
-    - Downloading their release is better than using `cargo install cargo-binstall` because they optimize more.
+  - Downloading their release is better than using `cargo install cargo-binstall` because they optimize more.
+  - You probably need one of the C++ redistributables.
 - [nushell](https://github.com/nushell/nushell)
-  - Winget:
-    - `winget install nushell`
-  - Cargo:
-    - `cargo binstall nu`
+  - `winget install nushell`
+  - `cargo binstall nu`
 - [pnpm](https://pnpm.io/installation)
-  - Notes:
-    - Use `pnpm` to manage your `Node` versions.
-  - Winget:
-    - `winget install pnpm.pnpm`
+  - `iwr https://get.pnpm.io/install.ps1 -useb | iex`
+  - Use `pnpm` to manage your `Node` versions.
 - [Python](https://www.python.org/downloads/)
-  - Notes:
-    - Use version < 3.10.
-    - [Poetry](https://python-poetry.org/docs/)
-      - Most reasonable but doesn't work with `pytorch` custom CUDA / CUDNN stuff.
-    - [pipenv](https://github.com/pypa/pipenv)
-      - Worse but works with `pytorch`.
+  - Use version < 3.10.
+  - [Poetry](https://python-poetry.org/docs/)
+    - Most reasonable but doesn't work with `pytorch` custom CUDA / CUDNN stuff.
+  - [pipenv](https://github.com/pypa/pipenv)
+    - Worse but works with `pytorch`.
 - [lld](https://releases.llvm.org/)
-  - Notes:
-    - Faster linker for `Rust`.
-    - Might be default in future versions
+  - Faster linker for `Rust`.
+  - Might be default in future versions
 - [ohmyposh](https://ohmyposh.dev/docs/installation/windows)
-  - Notes:
-    - Needs a [Nerd Font](https://ohmyposh.dev/docs/installation/fonts). `DroidSansMono NF` looks good.
-  - Winget:
-    - `winget install JanDeDobbeleer.OhMyPosh -s winget`
+  - `winget install JanDeDobbeleer.OhMyPosh -s winget`
+  - Run `oh-my-posh font install` and select DroidSans.
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
-  - Winget:
-    - `winget install zoxide`
-  - Cargo:
-    - `cargo binstall zoxide`
+  - `winget install zoxide`
+  - `cargo binstall zoxide`
 - [ffmpeg / ffprobe](https://www.ffmpeg.org/download.html)
-  - Winget:
-    - `winget install ffpmeg`
+  - `winget install --id Gyan.FFmpeg`
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/releases)
-- ?[fzf](https://github.com/junegunn/fzf)
-  - Winget:
-    - `winget install fzf`
+- [fzf](https://github.com/junegunn/fzf)
+  - `winget install fzf`
 - ?[Deno](https://github.com/denoland/deno)
-  - Notes:
-    - Alternative JS/TS runtime that's better for building small things.
-- ?[ForceBindIP](ForceBindIP)
-  - Winget:
-    - `winget install forcebindip`
-- ?[ImageMagick](https://imagemagick.org/script/download.php)
-  - Notes:
-    - ffmpeg for images
-    - Old and problematic.
+  - `winget install --id DenoLand.Deno`
+- [ImageMagick](https://imagemagick.org/script/download.php)
   - Winget:
     - `winget install imagemagick`
 - ?[Ghostscript](https://www.ghostscript.com/releases/index.html)
-  - Notes:
-    - ffmpeg for pdfs
-    - Very old and problematic.
 
 ## PROGRAMS
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-  - Notes:
-    - `Chromium` has problems and doesn't work as well as Chrome.
-    - Never use or install Brave.
-    - Refer to the [extensions section](#browser-extensions).
+  - `Chromium` has problems and doesn't work as well as Chrome.
+  - Never use or install Brave.
+  - Refer to the [extensions section](#browser-extensions).
 - [7-Zip](https://www.7-zip.org/)
-  - Extra:
-    - 7-Zip Theme Manager
+  - ?7-Zip Theme Manager
 - [Adobe GenP](https://www.reddit.com/r/GenP/)
 - [BetterDiscord](https://github.com/BetterDiscord/BetterDiscord)
-  - Notes:
-    - Use `pnpm` and build from source instead of using their installer.
+  - Use `pnpm` and build from source instead of using their installer.
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-  - Winget:
-    - `winget install Docker.DockerDesktop`
-- [EarTrumpet](https://apps.microsoft.com/store/detail/9NBLGGH516XP)
-  - Winget:
-    - `winget install eartrumpet`
+  - `winget install Docker.DockerDesktop`
 - [PowerToys](https://apps.microsoft.com/store/detail/XP89DCGQ3K6VLD)
-  - Winget:
-    - `winget install powertoys`
+  - `winget install powertoys`
 - [VLC](https://www.videolan.org/vlc/)
-  - Notes:
-    - This is messy.
-    - Sometimes the video plays in a window called `DirectX 3D`. This usually takes a few hours to solve and I don't really know what solves this.
-    - Newer versions might be even more broken.
-    - Version `2.2.8 Weatherwax` seems to work fine.
-  - Alternatives:
-    - [mpv](https://mpv.io/)
-    - [mpv.net](https://github.com/mpvnet-player/mpv.net)
-- UXThemePatcher
-  - Notes:
-    - This is weird, unsafe, closed-source software.
-  - Alternatives:
-    - $[SecureUxTheme](https://github.com/namazso/SecureUxTheme) 
-- $[Nilesoft Shell](https://nilesoft.org/)
-- ?$[Auto Hot Key](https://www.autohotkey.com/)? 
-  - Alternatives:
-    - Use Python. This is exactly the sort of stuff Python was made for. Use libaries like `pynput` and `tkinter`. A glorified scripting language is better than a literal scripting language that can't do anything past simulating some keypresses.
-- ?$[Bulk Rename Utility](https://www.bulkrenameutility.co.uk/)
-  - Alternatives:
-    - Just write a short script to do it for you.
+-  [SecureUxTheme](https://github.com/namazso/SecureUxTheme)
+  - To get themes working. 
+- ?[EarTrumpet](https://apps.microsoft.com/store/detail/9NBLGGH516XP)
+  - `winget install eartrumpet`
+- ?$[Nilesoft Shell](https://nilesoft.org/)
 - ?[FileZilla](https://filezilla-project.org/)
-- ?[spicetify](https://github.com/spicetify/spicetify-cli)
-  - Notes
-    - Very unstable most of the time.
 - ?[qBittorrent](https://www.qbittorrent.org/)
 - ?$[VBCable](https://vb-audio.com/Cable/)
   - Alternatives:
@@ -174,9 +118,8 @@ Chrome and all it's derivatives are garbage, use Firefox.
 - [FastForward](https://github.com/FastForwardTeam/FastForward)  
 - [Firefox Color](https://color.firefox.com/)
 - [Lighthouse](https://github.com/GoogleChrome/lighthouse)  
-- [Open With](https://addons.mozilla.org/addon/open-with) 
-  - Notes
-    - Use with `yt-dlp` for downloading videos.  
+- [External Application Launcher](https://addons.mozilla.org/en-US/firefox/addon/external-application/) 
+  - Use with `yt-dlp` for downloading videos.  
 - [Privacy Badger](https://privacybadger.org/)  
 - [Redirect AMP to HTML](https://addons.mozilla.org/en-US/firefox/addon/amp2html/)  
 - [Return Youtube Dislike](https://www.returnyoutubedislike.com/)  
@@ -197,27 +140,18 @@ Chrome and all it's derivatives are garbage, use Firefox.
 - [SpotifyControls](https://betterdiscord.app/plugin/SpotifyControls)
 - [QuickLastMessage](https://betterdiscord.app/plugin/QuickLastMessage)
 
-
 ### THEMES
 - [GT-RevertRebrand](https://github.com/Goose-Nest/GT-RevertRebrand)
 - [revert.theme.css](https://gist.github.com/styxpilled/727554b063dd2b0fee5db7e47138e231)
-
-## BLENDER
-
-### ADDONS
-
-Node Wrangler (builtin)
-
-### ASSETS
-
-[800 Procedural Materials](https://adamantitemachine.com/b3dmatpack/)
 
 ## MINECRAFT
 
 You probably want an alternative launcher. [Prism Launcher](https://github.com/PrismLauncher/PrismLauncher) is open source.  
 Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org/en/about/faq/) which is a hard fork of Fabric. 
+
 ### GLOSSARY
 - [Modrinth](modrinth.com/) is a open-source mod platform.
+  
 ### BACKEND
 - [FabricApi](https://modrinth.com/mod/fabric-api)
   - Essential for using most Fabric mods.
@@ -231,6 +165,7 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Required by Litematica, MiniHUD and Tweakeroo.
 - ?[CIT Resewn](https://modrinth.com/mod/cit-resewn)
   - Custom Item Textures. Required by some resource packs.
+
 ### PERFORMANCE
 - [Sodium](https://modrinth.com/mod/sodium)
   - Non-destructive rendering optimization.
@@ -256,6 +191,7 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Speeds up language change load times.
 - [BetterBeds](https://modrinth.com/mod/better-beds)
   - Removes the block entity renderer from the bed and replaces it with the default minecraft model renderer. 
+
 ### RENDERING
 - [Iris](https://modrinth.com/mod/iris)
   - Shaders.
@@ -283,6 +219,7 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Improves the look and performance of biome color transitions.
 - [3D Skin Layers](https://modrinth.com/mod/3dskinlayers)
   - Replaces the 2d second layer of player skins with a 3d modeled version. Will automatically switch to the vanilla 2d rendering when players are further away than 12 blocks
+
 ### UI
 - $[Inventory HUD+](https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge)
   - Improved inventory HUD.
@@ -310,6 +247,7 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Stops tooltips from overflowing the screen.
 - [ItemSwapper](https://modrinth.com/plugin/itemswapper)
   - Item hotswapping.
+
 ### MISC
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
   - Provides some OptiFine's features to Sodium.
@@ -329,6 +267,7 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Open || close double doors with one click.
 - [Eating Animation](https://modrinth.com/mod/eating-animation)
   - Nicer eating animation.
+
 ### BUILDING
 - [Litematica](https://www.curseforge.com/minecraft/mc-mods/litematica)
   - Show various schematics as an overlay.
@@ -338,6 +277,7 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
   - Paste Litematica structures. Needs to be installed both on the client and server.
 - [World Edit](https://www.curseforge.com/minecraft/mc-mods/worldedit)
   - In-game map editor. Works only on singleplayer. 
+
 ### RESOURCE PACKS
   - $[VanillaTweaks](https://vanillatweaks.net/picker/resource-packs/)
     - Various tweaks.
@@ -347,9 +287,10 @@ Use [Fabric](https://fabricmc.net/) or alternatively [Quilt](https://quiltmc.org
     - Makes a few blocks look nicer without changing the overall feel.
   - ?[Even Better Enchants](https://modrinth.com/resourcepack/even-better-enchants)
     - Unique textures for all enchanted books. Requires [Cit Resewn](https://modrinth.com/mod/cit-resewn).
+
 ### SHADERS
   - [Rethinking Voxels](https://modrinth.com/shader/rethinking-voxels)
-    - 
+
 ### DEVELOPMENT
 - [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)
   - Use a language that isn't bad to [make mods](https://github.com/FabricMC/fabric-language-kotlin#usage).
