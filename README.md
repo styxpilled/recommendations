@@ -30,6 +30,8 @@ I'll update this with links and explanations in the future
 ## SHELL
 
 - [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
+- [PowerShell 7](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.4)
+  - `winget install --id Microsoft.PowerShell`
 - [curl](https://curl.se/)
   - `winget install cURL.cURL`
   -  Windows ships with curl, it's just that Powershell has a `curl` alias. In that case, use `curl.exe` until you have `nushell` installed
@@ -49,22 +51,25 @@ I'll update this with links and explanations in the future
   - `iwr https://get.pnpm.io/install.ps1 -useb | iex`
   - Use `pnpm` to manage your `Node` versions
 - [Python](https://www.python.org/downloads/)
-  - Avoid downloading if possible
-  - [Poetry](https://python-poetry.org/docs/)
-    - Most reasonable but doesn't work with `pytorch` custom CUDA / CUDNN stuff
-  - [pipenv](https://github.com/pypa/pipenv)
-    - Worse but works with `pytorch`
+  - Use version < 3.10.
+- [Go](https://go.dev/doc/install)
+  - `winget install --id GoLang.Go`
+- [MSYS2](https://www.msys2.org/)
+  - GCC, make
+- [Visual Studo](https://visualstudio.microsoft.com/downloads/)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
   - `winget install zoxide`
   - `cargo binstall zoxide`
 - [ffmpeg / ffprobe](https://www.ffmpeg.org/download.html)
   - `winget install --id Gyan.FFmpeg`
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/releases)
+  - `winget install --id yt-dlp.yt-dlp` 
 - [fzf](https://github.com/junegunn/fzf)
   - `winget install fzf`
 - [ImageMagick](https://imagemagick.org/script/download.php)
-  - Winget:
-    - `winget install imagemagick`
+  - `winget install imagemagick`
+- ?[lld](https://releases.llvm.org/)
+  - [Might be default in future Rust versions.](https://github.com/rust-lang/rust/issues/71520)
 - ?[Deno](https://github.com/denoland/deno)
   - `winget install --id DenoLand.Deno`
 - ?[Ghostscript](https://www.ghostscript.com/releases/index.html)
@@ -72,9 +77,8 @@ I'll update this with links and explanations in the future
 ## PROGRAMS
 
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/)
-  - `Chromium` has problems and doesn't work as well as Chrome
-  - Never use or install Brave
-  - Refer to the [extensions section](#browser-extensions)
+  - `winget install --id Mozilla.Firefox`
+  - Refer to the [extensions section](#browser-extensions).
 - [7-Zip](https://www.7-zip.org/)
   - ?7-Zip Theme Manager
 - [Adobe GenP](https://www.reddit.com/r/GenP/)
@@ -85,11 +89,11 @@ I'll update this with links and explanations in the future
 - [PowerToys](https://apps.microsoft.com/store/detail/XP89DCGQ3K6VLD)
   - `winget install powertoys`
 - [VLC](https://www.videolan.org/vlc/)
--  [SecureUxTheme](https://github.com/namazso/SecureUxTheme)
+  - `winget install --id VideoLAN.VLC`
+- [SecureUxTheme](https://github.com/namazso/SecureUxTheme)
   - To get themes working. 
 - ?[EarTrumpet](https://apps.microsoft.com/store/detail/9NBLGGH516XP)
   - `winget install eartrumpet`
-- ?$[Nilesoft Shell](https://nilesoft.org/)
 - ?[FileZilla](https://filezilla-project.org/)
 - ?[qBittorrent](https://www.qbittorrent.org/)
 - ?$[VBCable](https://vb-audio.com/Cable/)
@@ -103,10 +107,7 @@ Chrome and all it's derivatives are garbage, use Firefox.
 - [Bitwarden](https://bitwarden.com/)  
 - [ClearURLs](https://github.com/ClearURLs/Addon/)  
 - [Dark Reader](https://darkreader.org/)
-  - Alternatives:
-    - [Stylus](https://addons.mozilla.org/addon/styl-us/)
-    - [Midnight Lizard](https://addons.mozilla.org/addon/midnight-lizard-quantum/) 
-- [Demodal](https://github.com/AliasIO/demodal)  
+- [Bypass Paywalls Clean](https://gitlab.com/magnolia1234/bypass-paywalls-firefox-clean)  
 - [uBlock Origin](https://ublockorigin.com/)  
 - [DDG Privacy Essentials](https://addons.mozilla.org/addon/duckduckgo-for-firefox/)  
 - [FastForward](https://github.com/FastForwardTeam/FastForward)  
